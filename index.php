@@ -1,19 +1,12 @@
-<?php
-//Komanda ispausdinimui
-print 'tekstas';
-//Funkcija Operacijoms su data
-date('Y-m-d H:i:s');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>As Valdau HTML <?php print 'ir PHP';?> asas</title>
+    <title><?php print 'As, antradienis ir PHP';?></title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1> Tomas - HTML <?php print 'ir PHP';?></h1>
-<p>Kuriu dinamini turini. Atidaryta: <?php print date('Y-m-d H:i:s');?></p>
+<h1> Tomas - HTML asas jau nuo <?php print date('Y') . 'metu';?></h1>
+<p>Viskas prasidejo <?php print date('m') . ' menesio,' . date('d') . ' diena!';?></p>
 </body>
 </html>
