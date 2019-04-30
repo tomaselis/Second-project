@@ -1,14 +1,19 @@
+<?php
+//Komanda ispausdinimui
+print 'tekstas';
+//Funkcija Operacijoms su data
+date('Y-m-d H:i:s');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>As valdau HTML</title>
+    <title>As Valdau HTML <?php print 'ir PHP';?> asas</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <main>
-        <h3>Kaip linksma viska rasyti online</h3>
-        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-    </main>
+<h1> Tomas - HTML <?php print 'ir PHP';?></h1>
+<p>Kuriu dinamini turini. Atidaryta: <?php print date('Y-m-d H:i:s');?></p>
 </body>
 </html>
